@@ -1,0 +1,12 @@
+.table-styles {
+    padding-top: 50px;
+    background: #009688;
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 20px;
+    justify-content: flex-start;
+    align-content: flex-start;
+    overflow: auto;
+}

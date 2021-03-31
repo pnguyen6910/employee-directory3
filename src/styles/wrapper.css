@@ -1,0 +1,11 @@
+.wrapper {
+    background-color: #1e88e5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
