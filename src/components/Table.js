@@ -44,8 +44,8 @@ class Table extends Component {
                                     key={index}
                                     employeeKey={index + 1}
                                     image={employee.picture.thumbnail}
-                                    firstName={employee.firstName}
-                                    lastName={employee.lastName}
+                                    firstName={employee.name.first}
+                                    lastName={employee.name.last}
                                     phone={employee.phone}
                                     email={employee.email}
                                     location={`${employee.location.city}, ${employee.location.country}`}
